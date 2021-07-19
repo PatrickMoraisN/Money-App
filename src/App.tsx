@@ -1,17 +1,13 @@
 import React from 'react';
-import styled from 'styled-components';
+import Header from './components/Header';
 import { CreateGlobalStyle } from './styles/global';
 
-const Title = styled.h1`
-  color: #8257e6;
-  font-size: 64px;
-`
 function App() {
   return (
-    <Title>
-      Hello, world
+    <>
+      <Header />
       <CreateGlobalStyle />
-    </Title>
+    </>
   );
 }
 
