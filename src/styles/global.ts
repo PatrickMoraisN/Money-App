@@ -25,6 +25,16 @@ body {
   -webkit-font-smoothing: antialiased; // fonte mais "limpa"
 }
 
+body, input, textarea, button {
+  font-family: Poppins, sans-serif;
+  font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6, strong {
+  font-family: Poppins, sans-serif;
+  font-weight: 600;
+}
+
 html {
   @media (max-width: 1080px) {
     font-size: 93.75%; // 15px
