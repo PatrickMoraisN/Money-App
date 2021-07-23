@@ -2,6 +2,15 @@ import React from 'react'
 import { Container } from './style'
 
 const TransactionsTable = () => {
+
+React.useEffect(() => {
+  const getList = async () => {
+    const response = await fetch('http://localhost:3000/api/transactions').then(resp => resp.json())
+    console.log(response);
+  }
+  getList();
+}, [])
+
   return (
     <Container>
       <table>
