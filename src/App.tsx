@@ -1,5 +1,6 @@
 import React from 'react';
 import Modal from 'react-modal';
+import NewTransactionModal from './components/NewTransactionModal'
 import Dashboard from './components/Dashboard';
 import Header from './components/Header';
 import { CreateGlobalStyle } from './styles/global';
@@ -23,13 +24,7 @@ function App() {
         handleOpenNewTransactionModal={handleOpenNewTransactionModal}
       />
       <Dashboard />
-
-      <Modal
-          isOpen={isNewTransactionModalOpen}
-          onRequestClose={handleCloseNewTransactionModal}
-        >
-          testezin
-      </Modal>
+      <NewTransactionModal isOpen={isNewTransactionModalOpen} onRequestClose={handleCloseNewTransactionModal} />
       <CreateGlobalStyle />
     </>
   );
