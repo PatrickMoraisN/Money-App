@@ -6,7 +6,7 @@ const TransactionsTable = () => {
 
 React.useEffect(() => {
   const getList = async () => {
-    const response = await api.get('http://localhost:3000/api/transactions')
+    const response = await api.get('/transactions')
     console.log(response);
   }
   getList();
