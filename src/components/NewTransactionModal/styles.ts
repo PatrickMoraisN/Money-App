@@ -22,7 +22,7 @@ export const Container = styled.form`
     }
 
     & + input {
-      margin-top: 1rem;
+      margin-top: 1.4rem;
     }
   }
 
@@ -41,6 +41,30 @@ export const Container = styled.form`
     
     &:hover {
       filter: brightness(0.9);
+    }
+  }
+`;
+
+export const TransactionsTypeContainer = styled.div`
+  display: flex;
+  gap: 0.5rem;
+  margin: 1.4rem 0;
+  
+  button {
+    flex: 1;
+    height: 4rem;
+    border: 1px solid #d7d7d7;
+    border-radius: 0.25rem;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    transition: 0.2s;
+
+    &:hover {
+      filter: brightness(0.9);
+      background: #f7f7f7;
     }
   }
 `;
