@@ -1,46 +1,50 @@
-# Getting Started with Create React App
+<h1 align="center">Money App</h1>
+<br />
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# :pushpin: Index
+- [Project Media](#camera_flash-project-media)
+- [About](#monocle_face-about)
+- [Technologies](#rocket-technologies)
+- [Author](#closed_book-author)
+<br />
 
-## Available Scripts
+---
+# :camera_flash: Project Media
+<div align="center">
+  <img src="src/images/app1.gif" width="300px"/>
+  <img src="src/images/app2.gif" width="300px"/>
+  <img src="src/images/img1.png" width="300px"/>
+  <img src="src/images/img2.png" width="300px"/>
+  <img src="src/images/img3.png" width="300px"/>
+  <img src="src/images/img4.png" width="300px"/>
+  <img src="src/images/img5.png" width="300px"/>
+  <img src="src/images/img6.png" width="300px"/>
+</div>
 
-In the project directory, you can run:
+<br />
 
-### `npm start`
+---
+# :monocle_face: About
+This project was developed in order to practice ReactJS features in the format of a mobile application. The development happened together, using agile methods.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+A recipe API was consumed to develop the application.
+You can search for recipes by name, first letter or ingredient.
+You can also add a recipe to favorites so that it is saved in the Local Storage.
+<br />
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+---
 
-### `npm test`
+# :rocket: Technologies
+This project was developed with the following technologies: <br>
+- :heavy_check_mark: **React**
+- :heavy_check_mark: **Typescript**
+- :heavy_check_mark: **Styled Components**
+- :heavy_check_mark: **Context API**
+<br>
+<br />
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+# :closed_book: Author
+By [Patrick Morais](https://github.com/PatrickMoraisN).
+### :link: LinkedIn: https://www.linkedin.com/in/patrick-morais/
