@@ -11,25 +11,22 @@
 ---
 # :camera_flash: Project Media
 <div align="center">
-  <img src="src/images/app1.gif" width="300px"/>
-  <img src="src/images/app2.gif" width="300px"/>
-  <img src="src/images/img1.png" width="300px"/>
-  <img src="src/images/img2.png" width="300px"/>
-  <img src="src/images/img3.png" width="300px"/>
-  <img src="src/images/img4.png" width="300px"/>
-  <img src="src/images/img5.png" width="300px"/>
-  <img src="src/images/img6.png" width="300px"/>
+  <img src="assets/app.gif" width="450px"/>
+  <img src="assets/money-app1.png" width="450px"/>
+  <img src="assets/money-app2.png" width="450px"/>
+  <img src="assets/money-app3.png" width="450px"/>
 </div>
 
 <br />
 
 ---
 # :monocle_face: About
-This project was developed in order to practice ReactJS features in the format of a mobile application. The development happened together, using agile methods.
+This project was developed to be a financial control application. Technologies like Typescript and Styled Components were used.
 
-A recipe API was consumed to develop the application.
-You can search for recipes by name, first letter or ingredient.
-You can also add a recipe to favorites so that it is saved in the Local Storage.
+In case a sequence of finances adds up positive, the total value has its background green, otherwise it becomes red.
+This dynamic change was done by sharing Props between the component and the file that contains the specific Styled Components.
+
+I hope you enjoyed it <3
 <br />
 
 ---
@@ -40,6 +37,8 @@ This project was developed with the following technologies: <br>
 - :heavy_check_mark: **Typescript**
 - :heavy_check_mark: **Styled Components**
 - :heavy_check_mark: **Context API**
+- :heavy_check_mark: **MirageJS**
+- :heavy_check_mark: **Axios**
 <br>
 <br />
 
