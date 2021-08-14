@@ -11,10 +11,10 @@
 ---
 # :camera_flash: Project Media
 <div align="center">
-  <img src="assets/app.gif" width="450px"/>
-  <img src="assets/money-app1.png" width="450px"/>
-  <img src="assets/money-app2.png" width="450px"/>
-  <img src="assets/money-app3.png" width="450px"/>
+  <img src="assets/app.gif" width="650px"/>
+  <img src="assets/money-app1.png" width="650px"/>
+  <img src="assets/money-app2.png" width="650px"/>
+  <img src="assets/money-app3.png" width="650px"/>
 </div>
 
 <br />
